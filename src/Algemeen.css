@@ -1,0 +1,206 @@
+:root {
+    --wit: white;
+    --zwart: black;
+    --blauw: #434bda; 
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background-image: url(images/achtergrond.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: var(--wit);
+    font-size: 40px;
+}
+
+h2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: var(--wit);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h3 {
+  position: absolute;
+  width: 130px;
+  left: 50px;
+  top: 240px;
+  text-align: center;
+  color: var(--wit);
+  font-size: 25px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.button-container {
+    position: absolute;
+    bottom: 100px; 
+    left: -65px; 
+    right: 70px;
+    width: fit-content;
+}
+  
+.button {
+    margin: 10px;
+    padding: 15px 30px;
+    width: 200px;
+    height: 80px;
+    font-size: 22px;
+    background-color: var(--wit);
+    color: var(--blauw);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container-start-button {
+    position: absolute;
+    bottom: 220px;
+    left: 20px;
+    right: 60px;
+    width: fit-content;
+}
+
+.start-button {
+    margin: 10px;
+    padding: 15px 30px;
+    width: 200px;
+    height: 80px;
+    font-size: 22px;
+    background-color: var(--wit);
+    color: var(--blauw);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.category-button {
+    margin: 10px;
+    color: var(--zwart);
+    padding: 15px 30px;
+    width: 210px;
+    height: 80px;
+    font-size: 22px;
+    background-color: var(--wit);
+    color: var(--blauw);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.button-category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 220px;
+}
+  
+  
+.question {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+  
+.question-text {
+    font-size: 24px;
+    color: var(--zwart);
+}
+
+.card {
+    background-color: var(--wit);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: inline-block;
+    transform: translateY(0);
+}
+
+.container-new-question-button {
+    position: absolute;
+    bottom: 130px;
+    left: 9px;
+    right: 60px;
+    width: fit-content;
+}
+  
+.new-question-button {
+    background-color: var(--wit);
+    margin: 10px;
+    padding: 15px 30px;
+    width: 240px;
+    height: 80px;
+    font-size: 22px;
+    color: var(--blauw);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.back-button-container {
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    width: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-button {
+    width: 40px;
+    height: 40px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    background-color: var(--wit);
+    color: var(--blauw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    position: fixed;
+    bottom: -18px;
+    right: 140px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 60px;
+}
