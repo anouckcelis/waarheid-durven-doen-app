@@ -111,7 +111,7 @@ const WaarheidDurvenDoen = () => {
       {!selectedCategory && (
         <div className="intro">
           <h1>Waarheid<br/>Durven<br/>Doen</h1>
-          <h3>Wat voor vragen wil je?</h3>
+          <h3>Wat voor vragen?</h3>
           <div className="button-category-container">
             {/* Render categorieknoppen */}
             {categories.map((category, index) => (
@@ -131,7 +131,7 @@ const WaarheidDurvenDoen = () => {
       {selectedCategory && !selectedType && (
         <div className="intro">
           <h1>Waarheid<br/>Durven<br/>Doen</h1>
-          <h3>Kies een type vraag</h3>
+          <h3>Type vraag?</h3>
           <div className="button-container">
             {/* Render type vraagknoppen */}
             <button className="button" onClick={() => handleTypeClick('waarheid')}>Waarheid</button>
