@@ -9,7 +9,6 @@ const Start = () => {
           <div className="start-screen">
             <div className="intro">
               <h1>Waarheid<br/>Durven<br/>Doen</h1>
-              <h3>Klik op de knop om te beginnen!</h3>
               <div className="container-start-button">
                   {/* Link naar de vragen */}
                   <Link to="/WaarheidDurvenDoen">
